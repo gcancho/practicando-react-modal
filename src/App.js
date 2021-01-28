@@ -8,6 +8,7 @@ import Imagen4 from './imagenes/4.jpg';
 const App = () => {
     return ( 
         <div className="contenedor">
+            {/* Las cards reciben diferentes propiedades, pero la estructura es la misma */}
             <Card id="1" usuario="Cesar" color="red" imagen={Imagen1}/>
             <Card id="2" usuario="Carlos" color="green" imagen={Imagen2}/>
             <Card id="3" usuario="Manuel" color="blue" imagen={Imagen3}/>

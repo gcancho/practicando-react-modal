@@ -9,6 +9,7 @@ const Card = ({ usuario, color, imagen, id }) => {
         switch (e.target.id) {
             case "1":
                 idSeleccionado = e.target.id;
+                //Cambia el estado de "miModal" a el valor del id segun donde se encuentre el case
                 cambiarMiModal(idSeleccionado);
                 break;
             case "2":
